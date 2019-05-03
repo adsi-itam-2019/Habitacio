@@ -189,21 +189,21 @@ jQuery(function($){
        var skipSlider = document.getElementById('aa-sqrfeet-range');
         noUiSlider.create(skipSlider, {
             range: {
-              'min': 0,
-              '10%': 100,
-              '20%': 200,
-              '30%': 300,
-              '40%': 400,
-              '50%': 500,
-              '60%': 600,
-              '70%': 700,
-              '80%': 800,
-              '90%': 900,
-              'max': 1000
+              'min': 2000,
+              '10%': 3000,
+              '20%': 4000,
+              '30%': 5000,
+              '40%': 6000,
+              '50%': 7000,
+              '60%': 8000,
+              '70%': 9000,
+              '80%': 10000,
+              '90%': 11000,
+              'max': 12000
             },
             snap: true,
             connect: true,
-            start: [200, 700]
+            start: [2000, 12000]
         });
         // for value print
         var skipValues = [
