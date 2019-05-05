@@ -65,3 +65,6 @@
         setInterval(rotarImagenes,5000);
 
     }
+    function click_subir(){
+        window.location='mispropiedades.html';
+    }

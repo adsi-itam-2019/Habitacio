@@ -26,7 +26,10 @@ a:hover {
   height: 51px;
 }
 
-
+html, body{
+  height: 100%;
+  width: 100%;
+}
 
 
 
@@ -36,7 +39,12 @@ a:hover {
   overflow: hidden;
   background-color: #333;
   height: 51px;
-
+  background-image: url(images/bk_nav.jpg);
+  height:  300px;
+  width: 1403px;
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-left: 100px;
 }
 
 .navbar a {
@@ -107,10 +115,29 @@ a:hover {
     display: -webkit-box;
     padding-top: 40px;
     padding-left: 60px;
+    font-family: Open Sans, sans-serif;
+    
 }
 
 
 .imagenes_depto{
 	width: 800px;
 	height: 400px;
+}
+.adjuntar_imagen{
+  margin-left: 700px;
+  
+  height: 50px;
+  width: 400px;
+
+}
+
+#boton_subir{
+  float: right;
+  margin-top: 25px;
+  margin-right: 100px;
+
+}
+#frm_adj{
+  width: 400px;
 }
