@@ -3448,3 +3448,10 @@ img {
   }
   
 }
+
+#Boton_Subir{
+  float:right;
+  margin-right: 100px;
+  margin-bottom: 70px;
+  
+}
