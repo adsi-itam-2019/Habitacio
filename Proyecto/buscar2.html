@@ -41,6 +41,7 @@
   <!-- END SCROLL TOP BUTTON -->
 
   <!-- MENU DE NAVEGACIÓN -->
+  	<!-- MENU DE NAVEGACIÓN -->
   	<section id="aa-menu-area">
     <nav class="navbar navbar-default main-navbar" role="navigation">  
       <div class="container">
@@ -48,9 +49,7 @@
         <!-- MOSTRAR LOGO -->
         <div id="navbar" class="navbar-collapse collapse"><img src="img/logo.png" width="56" height="51" alt=""/>
           <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
-            <li><a href="index.html">HOME</a></li>
             <li><a href="buscar.html">BUSCAR</a></li>
-            <li><a href="mispropiedades.html">PROPIEDADES</a></li>
             <li><a href="Favoritos.html">FAVORITOS</a></li>
 			<!-- CREAR UN DROPDOWN BUTTON -->
 		    <li class="dropdown active">
@@ -212,14 +211,14 @@
             <!-- Start Single properties sidebar -->
             <div class="aa-properties-single-sidebar">
               <h3>FILTROS</h3>
-              <form action="">
+              <form>
 <span class="aa-single-advance-search">
               <select id="select" name="select">
                   <option value="0">Tipo de alojamiento:</option>
                   <option value="1">casas</option>
                   <option value="2">departamentos</option>
                   <option value="3">cuartos</option>
-                </select>
+              </select>
                 </span>
                 <div class="aa-single-advance-search">
                   <input type="checkbox" name="checkbox" id="checkbox">
@@ -241,16 +240,16 @@
                 <span>PRECIO ($) DE:</span><span></span>
                 <span id="skip-value-lower" class="example-val">3000.00</span>A <span id="skip-value-upper" class="example-val">6000.00</span>
                 <div id="aa-sqrfeet-range">
-                  </div>                  
+                </div>                  
                 </div>
                 <div class="aa-single-filter-search"><span>DISTANCIA (Metros) DE:</span> <span id="skip-value-lower2" class="example-val">200.00</span> <span>A</span> <span id="skip-value-upper2" class="example-val">700.00</span>
                   <div id="aa-price-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
                   </div>      
                 </div>
-                <div href="busca2.html".html" class="aa-single-advance-search">
-                  <input type="submit" value="BUSCAR" class="aa-search-btn">
-                </div>
-              </form>
+                <div href="buscar.html" class="aa-single-advance-search">
+				<form action= "buscar.html"  method = "post">	
+                  <input type="submit" value="BUSCAR" class="aa-search-btn" formaction="buscar.html">
+				</form>
             </div> 
          	</aside>
         </div>
