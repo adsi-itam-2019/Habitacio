@@ -7,11 +7,11 @@
         
         if (pos!=-1) {
         	window.open("buscar.html","_top");
-        	window.alert(pos);
+        	window.alert();
            
         }else{
         	
       	  	window.open("mispropiedades.html","_top");
-      	  	window.alert(100);
+      	  	window.alert();
         }    
     }
