@@ -274,6 +274,10 @@ h2 {
   background-color: #59abe3;
 }
 
+#prueba:active {
+    background-color: red;
+}
+
 
 /*=======================================
 Template Design By MarkUps.
