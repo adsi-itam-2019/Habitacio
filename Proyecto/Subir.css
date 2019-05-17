@@ -136,8 +136,15 @@ html, body{
   float: right;
   margin-top: 25px;
   margin-right: 100px;
-
 }
+.contenedor{
+  outline-color: red;
+  padding-bottom: 70px;
+}
+
 #frm_adj{
   width: 400px;
+}
+.adjuntar_imagen{
+  padding-bottom: 10px;
 }
