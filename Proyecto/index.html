@@ -1,62 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    <!-- para adaptar a las pantallas --> 
-    <title>Habitacio | Signin</title>  <!-- titulo de la pagina -->
-	  
-	<!-- formato de la `página --> 
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.css" rel="stylesheet">   
-		<!-- Theme color -->
-		<link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">     
-		<!-- Main style sheet -->
-		<link href="css/style.css" rel="stylesheet">    
-		<!-- Google Font -->
-		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">    
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-		<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
-		<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<html>
+<link rel="stylesheet" type="text/css" href="index.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript" src="index.js"></script>
+<head>
+	<title>Habitacio</title>
+</head>
+<body>
+	<div class="container_body">
+		<div class="container_formulario">
 
-  
-  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-  </head>
-  <body>
-  <section id="aa-signin">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-signin-area">
-            <div class="aa-signin-form">
-              <div class="aa-signin-form-title">
-                <a class="aa-property-home" href="index.html">HABITACIÒ</a>
-                <h4>INICIAR SESIÓN</h4>
-              </div>
-              <form class="contactform">                                                 
-                <div class="aa-single-field">
-                  <label for="email">Email <span class="required">*</span></label>
-                  <input type="email" required="required" aria-required="true" value="" name="email">
-                </div>
-                <div class="aa-single-field">
-                  <label for="password">Password <span class="required">*</span></label>
-                  <input type="password" name="password"> 
-                </div>
-                <div class="aa-single-field">
-                <label>
-                  <input type="checkbox"> Recordarme
-                </label>                                                          
-                </div> 
-                <div class="aa-single-submit">
-                  <input name="submit" type="submit" class="aa-browse-btn" formaction="buscar.html" value="ACEPTAR" href="buscar.html">
-<p>¿NO TIENES CUENTA? <a href="registro.html">REGISTRATE!</a></p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+			
+
+			<form action="/action_page.php">
+				<div class="imgcontainer">
+    				<img src="logo.png" alt="Avatar" class="avatar">
+  				</div>
+
+ 				<div class="container">
+    				<label class="label" for="uname"><b>Correo</b></label>
+    				<input id="e-mail-box"class="input" type="email" placeholder="Ingrese Correo" name="uname" required>
+					<label class="label" for="psw"><b>Contraseña</b></label>
+    				<input class="input" type="password" placeholder="Ingrese Contraseña" name="psw" required>
+    				<button  onclick="click_login()">Ingresar</button>
+    				<label class="label">
+      					
+  				</div>
+  				<div class="container" style="background-color:#f1f1f1">
+    				
+    				<span class="psw">Forgot <a href="#">password?</a></span>
+  				</div>
+			</form>
+
+
+
+		</div>
+	</div>
 </body>
 </html>
