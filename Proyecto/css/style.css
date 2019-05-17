@@ -1484,11 +1484,14 @@ img {
   color: #fff;
 }
 #aa-properties .aa-properties-sidebar {
-  background-color: #f8f8f8;
-  display: inline;
-  float: left;
-  padding: 10px 20px;
-  width: 100%;
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	width: 100%;
 }
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar {
   display: inline;
@@ -1500,10 +1503,12 @@ img {
   text-transform: uppercase;
 }
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar .aa-single-advance-search {
-  display: inline;
-  float: left;
-  width: 100%;
-  margin-top: 15px;
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	margin-right: px;
+	margin-left: 20px;
 }
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar .aa-single-advance-search input[type="text"] {
   border: 1px solid #fff;
@@ -1523,16 +1528,16 @@ img {
   width: 100%;
 }
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar .aa-single-advance-search .aa-search-btn {
-  border: medium none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 15px;
-  height: 50px;
-  outline: medium none;
-  text-transform: uppercase;
-  width: 100%;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	height: 500px;
+	outline: medium none;
+	text-transform: uppercase;
+	width: 200%;
+	margin-left: 55px;
 }
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar .aa-single-filter-search {
   display: inline;
