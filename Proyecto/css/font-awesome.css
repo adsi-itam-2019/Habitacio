@@ -280,6 +280,10 @@
 .fa-list-alt:before {
   content: "\f022";
 }
+#button2{
+  float: left;
+  
+}
 .fa-lock:before {
   content: "\f023";
 }
