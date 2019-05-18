@@ -28,7 +28,8 @@ Las funciones que están disponibles en esta última entrega son:
 
 9.	Agregar propiedad: En esta sección se elige la información de la propiedad que se va a dar de alta, en este ejemplo se subieron algunas imágenes muestra para la funcionalidad de agregar foto.
 
-
+Nota:
+-------------------------->   Al ingresar, no poner ninguna contraseña   <----------------------------------------------
 
 Hasta el momento:
 •	Ninguna de las opciones de modificar esta disponible, ni la de contactar al arrendador por medio de la página.
